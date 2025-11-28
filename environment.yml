@@ -1,0 +1,44 @@
+name: cy-axiverse
+channels:
+  - conda-forge
+dependencies:
+  # JAXVacua dependencies
+  - python
+  - numpy
+  - normaliz
+  - scipy
+  - sympy
+  - cvxopt
+  - python-flint
+  - pplpy
+  - joblib
+  - tqdm
+  - qpsolvers
+  - requests
+  - osqp
+  - pip
+  - pip:
+    - sympy
+    - numba
+    - classy
+    - cosmology
+    - torch
+    - nflows
+    - emcee>=3.1.0
+    - corner
+    - tqdm
+    - cvxpy
+    - ortools
+    - triangulumancer
+    - pypalp
+    - cygv
+    - h5py
+    - gurobipy
+    - cytools
+  # Common useful tools
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - plotly
+  - seaborn
