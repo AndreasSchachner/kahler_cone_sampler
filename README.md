@@ -22,11 +22,6 @@ Finally, we implement a forward model combining cosmological likelihoods from th
 
 
 <p align="center">
-  <img src="/images/plotex1.png" width="400">
-</p>
-
-
-<p align="center">
   <img src="/images/plotex2.png" width="800">
 </p>
 
